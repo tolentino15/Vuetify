@@ -2,7 +2,7 @@
   "name": "Projeto-vuetify",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
