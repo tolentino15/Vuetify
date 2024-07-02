@@ -61,6 +61,23 @@
       </v-card>
     </div>
   </v-container>
+
+  <v-divider></v-divider>
+
+  <v-container>
+    <v-input>
+      <v-text-field
+        label="Email"
+        placeholder="xxxxx@gmail.com"
+        variant="outlined"
+        clearable
+      > 
+      
+    </v-text-field>
+    </v-input>
+  </v-container>
+
+
 </template>
 
 <script>
