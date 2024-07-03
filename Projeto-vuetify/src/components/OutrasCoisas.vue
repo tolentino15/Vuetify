@@ -1,11 +1,12 @@
 <template>
-  <v-container class="d-flex justify-center align-center">
-    <div>
-      <h1>OLA MUNDO!</h1>
-    </div>
-  </v-container>
 
-  <v-container>
+
+
+    <!-- CARD -->
+
+
+    <div>
+        <v-container>
     <div>
       <v-card class="mx-auto" max-width="344">
         <v-card-text>
@@ -61,25 +62,8 @@
       </v-card>
     </div>
   </v-container>
-
-  <v-divider></v-divider>
-
-  <v-container>
-    <v-input>
-      <v-text-field
-        label="Email"
-        placeholder="xxxxx@gmail.com"
-        variant="outlined"
-        clearable
-      > 
-      
-    </v-text-field>
-    </v-input>
-  </v-container>
-
-
+    </div>
 </template>
-
 <script>
 export default {
   data: () => ({
