@@ -7,10 +7,6 @@
           </v-row>
           <v-row class="d-flex justify-space-between align-center">
             <h3 class="circle">Cadastro</h3>
-
-            <div>
-              <v-btn variant="outlined" class="btn"> Salvar </v-btn>
-            </div>
           </v-row>
         </div>
 
@@ -39,11 +35,6 @@ export default {
   background-color: purple;
   color: white;
   border-radius: 20px;
-}
-
-.btn {
-  background-color: green;
-  color: white;
 }
 
 .custom-cont {
